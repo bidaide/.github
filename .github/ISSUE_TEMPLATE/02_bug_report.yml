@@ -7,7 +7,7 @@ body:
   - type: dropdown
     id: environment
     attributes:
-      label: 発生環境
+      label: 🖥️ 発生環境
       description: 不具合が発生した環境を選択してください
       options:
         - 本番環境
@@ -18,14 +18,14 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: 概要
+      label: 📝 概要
       description: どのような不具合が発生しているか記載してください
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: 再現手順
+      label: 🔁 再現手順
       description: 発生条件や再現手順を順番に記載してください
       placeholder: |
         1.
@@ -36,21 +36,21 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: 期待する動作
+      label: ✅ 期待する動作
       description: 本来どのような動作になるべきか記載してください
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: 実際の動作
+      label: ⚠️ 実際の動作
       description: 実際に発生した動作・エラーメッセージなどを記載してください
     validations:
       required: true
   - type: textarea
     id: additional
     attributes:
-      label: 補足
+      label: 📎 補足
       description: OS・ブラウザ・バージョンなどの詳細情報、スクリーンショット、ログ、参考リンクなどがあれば記載してください
     validations:
       required: false
