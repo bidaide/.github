@@ -6,7 +6,7 @@ Bidaide 組織全体で共有する GitHub の設定・テンプレート類を�
 
 ## 含まれるもの
 
-- `.github/ISSUE_TEMPLATE/` — Issue テンプレート（feature request / bug report / question）
+- `.github/ISSUE_TEMPLATE/` — Issue テンプレート（feature request / bug report / question / chore）
 - `.github/PULL_REQUEST_TEMPLATE.md` — Pull Request テンプレート
 - `.gitmessage` — コミットメッセージテンプレート（Conventional Commits + 絵文字）
 - `.gitignore` — 共通の除外設定
