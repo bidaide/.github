@@ -1,9 +1,11 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/bidaide/.github/main/profile/assets/logo-dark.svg">
-  <img src="https://raw.githubusercontent.com/bidaide/.github/main/profile/assets/logo-light.svg"
-       alt="Bidaide" width="88">
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/bidaide/.github/main/profile/assets/logo-dark.svg">
+    <img src="https://raw.githubusercontent.com/bidaide/.github/main/profile/assets/logo-light.svg"
+         alt="Bidaide" width="88">
+  </picture>
+</div>
 
 # .github
 
